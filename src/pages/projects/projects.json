@@ -4,31 +4,31 @@
       "title": "Pokemon App",
       "technologies": ["React", "Tailwind"],
       "description": "A simple web app that displays Pokémon and their stats by utilizing the pokeapi.com API.",
-      "image": "../public/pokemon_project.png"
+      "image": "public/pokemon_project.png"
     },
     {
       "title": "Shoply E-Commerce Store",
       "technologies": ["React", "Redux"],
       "description": "An e-commerce store that utilizes React router, Redux, and custom hooks to fetch data from a currency API and the fakestore API.",
-      "image": "../public/ecommerce_project.png"
+      "image": "public/ecommerce_project.png"
     },
     {
       "title": "Capstone Project",
       "technologies": ["React", "Redux"],
       "description": "Capstone project, sponsored by the BC Digital Identity and Trust Program.\n\nA fully customizable template builder that allows the team at BC DITP to quickly generate showcases.",
-      "image": "../public/capstone_project.png"
+      "image": "public/capstone_project.png"
     },
     {
       "title": "Portfolio",
       "technologies": ["React", "Redux"],
       "description": "Description of another project.",
-      "image": "../public/portoflio_project.png"
+      "image": "public/portoflio_project.png"
     },
     {
       "title": "Favourite Movies App",
       "technologies": ["React", "Redux"],
       "description": "A full-stack CRUD application that allows the user to keep track of their favourite movies.",
-      "image": "../public/portoflio_project.png"
+      "image": "public/portoflio_project.png"
     }
   ]
 }
