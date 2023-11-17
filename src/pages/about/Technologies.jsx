@@ -24,9 +24,7 @@ import Header from "../../components/Header";
 const Technologies = () => {
   return (
     <>
-      {/* Technologies */}
-      {/* <Container> */}
-      <div className="text-black flex items-center justify-center mt-24">
+      <div className="text-black flex items-center justify-center lg:mt-24 mt-14">
         <div className="flex flex-wrap gap-x-7 gap-y-8 sm:gap-x-8 md:gap-x-12 lg:gap-x-20 xl:gap-x-24 2xl:gap-x-32">
           <div className="flex flex-col justify-center items-center gap-2">
             <FaHtml5 className="text-4xl xl:text-5xl " />
@@ -62,7 +60,6 @@ const Technologies = () => {
           </div>
         </div>
       </div>
-      {/* </Container> */}
     </>
   );
 };

@@ -10,15 +10,16 @@ const Projects = () => {
   return (
     <>
       <Container>
-        <div className="text-black">
+        <div className="text-black" id="projects-section">
           <Header text={"02. Projects"} />
-          <p className="lg:text-xl">
+          <p className=" text-lg lg:text-xl mb-12">
             This is a collection of hobby projects as well as projects I made
-            during my studies.
+            during my studies. <br></br>Most have been refactored to React with
+            a cleaner design.
           </p>
-          <p className="lg:text-xl mb-12">
+          {/* <p className="lg:text-xl mb-12">
             Most have been refactored to React with a cleaner design.
-          </p>
+          </p> */}
 
           {/* Card */}
           <div className="flex flex-col gap-8">
@@ -30,6 +31,8 @@ const Projects = () => {
                   title={project.title}
                   description={project.description}
                   image={project.image}
+                  siteLink={project.siteLink}
+                  githubLink={project.githubLink}
                 />
               );
             })}

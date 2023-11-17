@@ -3,7 +3,7 @@ import Hero from "./pages/hero/Hero";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
 import Navbar from "./components/Navbar";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -12,6 +12,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 }
