@@ -70,9 +70,7 @@ const Contact = () => {
           id="contact-section"
         >
           <div className="col-span-2 flex flex-col align-center">
-            <h3 className=" text-3xl lg:text-4xl font-bold">
-              Have a project in mind ?
-            </h3>
+            <h3 className=" text-3xl  font-bold">Have a project in mind ?</h3>
             <div>
               <p className="text-lg lg:text-xl my-6 lg:mt-12 ">
                 Fill in the form and lets discuss your next website!
@@ -112,11 +110,9 @@ const Contact = () => {
           <form
             ref={form}
             onSubmit={handleSubmit}
-            className="border border-black col-span-3 rounded p-4 lg:p-8 mt-8 lg:mt-0"
+            className="border border-black col-span-3 rounded p-6 lg:p-10 mt-8 lg:mt-0"
           >
-            <h3 className="text-4xl lg:text-5xl font-bold mt-4">
-              Get in touch.
-            </h3>
+            <h3 className="text-4xl  font-bold mt-4">Get in touch.</h3>
             <p className="text-lg lg:text-xl mt-4 mb-12 ">
               Leave your name, email, and any questions you have and I will get
               back to you as soon as I can.
