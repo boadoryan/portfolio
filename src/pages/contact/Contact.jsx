@@ -9,7 +9,6 @@ import {
 } from "react-icons/ai";
 import { useRef, useState } from "react";
 import { TextInput, TextAreaInput } from "../../components/FormInputs";
-import Modal from "../../components/Modal";
 
 const Contact = () => {
   const form = useRef();
