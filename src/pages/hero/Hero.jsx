@@ -9,7 +9,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div className="flex items-center justify-center my-16">
       <div className="flex flex-col items-center gap-6 text-center">
         <img
           className=" h-auto w-[16rem] lg:w-[20rem]"
