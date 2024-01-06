@@ -1,7 +1,9 @@
 import React from "react";
 
 import ProjectCard from "./ProjectCard";
-import projects from "./projects.json";
+// import { projects } from "./projects.js";
+
+import { projects } from "./projects_data.js";
 
 import Container from "../../components/Container";
 import Header from "../../components/Header";
@@ -23,7 +25,7 @@ const Projects = () => {
 
           {/* Card */}
           <div className="flex flex-col gap-8">
-            {projects.projects.map((project, index) => {
+            {projects.map((project, index) => {
               return (
                 <ProjectCard
                   key={index}
